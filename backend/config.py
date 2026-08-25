@@ -28,8 +28,8 @@ class Settings(BaseSettings):
     DEBUG: bool = True
 
     # URLs
-    FRONTEND_URL: str = "http://localhost:5173"
-    BACKEND_URL: str = "http://localhost:8000"
+    FRONTEND_URL: str = "land-record-frontend07-sage.vercel.app"
+    BACKEND_URL: str = "https://land-record.onrender.com"
 
     model_config = {"env_file": ".env", "extra": "allow"}
 
