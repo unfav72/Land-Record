@@ -4,10 +4,10 @@ from pathlib import Path
 
 class Settings(BaseSettings):
     # Database
-    DATABASE_URL: str = "sqlite:///./land_records.db"
+    DATABASE_URL: str = "postgresql://neondb_owner:npg_rnBE4HWjSia6@ep-young-band-b30x3m8i-pooler.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
     # JWT Authentication
-    SECRET_KEY: str = "change-this-to-a-strong-random-secret-key-in-production"
+    SECRET_KEY: str = "Vj8mQ2xL9pR4tN7wK6zY3cH1sF5aD8eG0uB2nM4qW7xP9rT6vC3jL5kZ8sX1ALGORITHM=HS256"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 480
 
