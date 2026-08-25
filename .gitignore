@@ -1,0 +1,20 @@
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.db
+*.sqlite3
+
+# Uploads / Generated
+backend/uploads/
+backend/generated/
+backend/data/
