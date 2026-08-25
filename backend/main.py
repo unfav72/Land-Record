@@ -7,9 +7,11 @@ from config import settings
 
 # Import routers
 from routers import auth, documents, records, dashboard, search, export, users
+from seed_data import seed_db
 
-# Ensure tables are created
+# Ensure tables are created and data is seeded
 models.Base.metadata.create_all(bind=engine)
+seed_db()
 
 app = FastAPI(
     title=settings.APP_NAME,
