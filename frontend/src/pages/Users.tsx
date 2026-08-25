@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Shield, ShieldAlert, UserPlus, Users as UsersIcon, Check, X, Loader2 } from 'lucide-react';
+import { Shield, ShieldAlert, UserPlus, Check, X, Loader2 } from 'lucide-react';
 import { apiClient } from '../api/client';
 import type { User } from '../types';
 
