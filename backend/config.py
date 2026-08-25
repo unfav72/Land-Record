@@ -19,7 +19,6 @@ class Settings(BaseSettings):
     # OCR Configuration
     OCR_ENGINE: str = "auto"
     TESSERACT_PATH: str = ""
-    OCR_SPACE_API_KEY: str = ""
     GEMINI_API_KEY: str = ""
 
     # Application
