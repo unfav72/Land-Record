@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     GEMINI_API_KEY: str = ""
 
     # Application
-    APP_NAME: str = "Intelligent Land Record Digitization System"
+    APP_NAME: str = "Mind Matrix"
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = True
 
