@@ -38,4 +38,4 @@ app.include_router(export.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to Intelligent Land Record Digitization API"}
+    return {"message": "Hi We Are Team MindMatrix , This Is Our Project's Backend Server"} 
