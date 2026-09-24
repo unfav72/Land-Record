@@ -142,7 +142,7 @@ def extract_fields_with_gemini(ocr_text: str, image_path: str) -> Dict[str, Dict
     prompt = "Extract the following land record fields from the image and the provided OCR text. Return empty strings if a field is not found."
     
     response = client.models.generate_content(
-        model='gemini-3.8-pro',
+        model='gemini-3.5-pro',
         contents=[prompt, f"OCR Text:\n{ocr_text}", img],
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
